@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Котики</title>
+    <style>
+      .cat {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .cat img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .menu {
+        list-style: none;
+        padding: 0;
+      }
+
+      .menu li {
+        position: relative;
+        cursor: pointer;
+      }
+
+      .menu ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu ul.visible {
+        display: block;
+      }
+
+      .menu a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .menu li:hover > ul {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Наши котики</h1>
+    Коты
+    
+    <ul class="menu">
+                <details>
+            <summary>Лара</summary>
+            <p>Умная</p>
+            <p>3 года</p>
+            <p>Мягкая шерсть</p>
+          </details>
+
+          <details>
+            <summary>Михаил</summary>
+            <p>Игривый</p>
+            <p>1 год</p>
+            <p>лысый</p>
+          </details>
+
+
+
+
